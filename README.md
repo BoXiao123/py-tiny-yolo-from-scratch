@@ -18,12 +18,15 @@ Main parts
 --
 
 main.py 
+		
 		This is the pipeline of the tiny yolo. I have embeded the .cfg into the main.py.You can easily see the tiny yolo structure in this script.
 
 load_weights.py
+		
 		I just follow the C code of YOLO about how to load the weights. You need to pay attention that the first 16 byte should be skipped. 16=4*sizeof(float)
 
 forward_convolution.py
+		
 		Both of weights and feature maps are three dimensional. We need to pay attention in real programming ,there is no 3 dimensional structures for data. That is why we need to reshape the weights and input feature maps for each layer. The 2D convolution is like :
 
 ![](https://github.com/BoXiao123/py-tiny-yolo-from-scratch/raw/master/2.jpg)
