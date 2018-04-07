@@ -8,9 +8,10 @@ If you want to understand the full details of convolutional neural networks, you
 Requirments
 ---
 
-Numpy
-Opencv3
+		Numpy
+		Opencv3
 
 Main parts
 ---
+		main.py 
 
