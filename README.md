@@ -7,11 +7,17 @@ If you want to understand the full details of convolutional neural networks, you
 
 Requirments
 ---
+Numpy Opencv3
 
-		Numpy
-		Opencv3
+Usage
+---
+python main.py
 
 Main parts
 ---
-		main.py 
+	main.py 
+	This is the pipeline of the tiny yolo. I have embeded the .cfg into the main.py.
+	You can easily see the tiny yolo structure in this script.
+	
+	
 
