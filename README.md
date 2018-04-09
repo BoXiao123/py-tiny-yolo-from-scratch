@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 py-tiny-yolo-from-scratch
 ==
 this repository is implementing tiny yolo by python from scratch. Yolo is a great and light weight deep learning platform. 
@@ -33,6 +32,5 @@ Both of weights and feature maps are three dimensional. We need to pay attention
 ![](https://github.com/BoXiao123/py-tiny-yolo-from-scratch/raw/master/2.jpg)
 	
 If everything goes well, you can get a layer12_out.txt, which contains the feature maps of region layer. 
-=======
-# py-tiny-yolo-from-scratch
->>>>>>> origin/master
+
+
